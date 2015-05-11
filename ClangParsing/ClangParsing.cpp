@@ -109,14 +109,6 @@ public:
 		}
 	}
 	
-	//virtual bool HandleTopLevelDecl(DeclGroupRef D){
-	//	for (auto b = D.begin(), e = D.end(); b != e; ++b)
-	//	{
-	//		//Visitor.TraverseDecl(*b);
-	//		*b.dumpColor();
-	//		return true;
-	//	}
-	//}
 private:
 	FindNamedClassVisitor Visitor;
 };
